@@ -28,7 +28,7 @@ You need MongoDB and Node.js installed to run this project.
 The server will auto restart on changes, but you still need to refresh your browser.
 
 ## How to use
-You can create an account in the signup page, then you can loggin in the signin page. The accounts are registered in a mongoDB collection. An account requires email and password. The password is crypted in the collection.
+You can create an account in the signup page, then you can loggin in the signin page. The accounts are registered in a mongoDB collection (mean-angular2-authentication). An account requires email and password. The password is crypted in the collection.
 
 If you are logged, the private page show you your email, if not, it show you a different message.
 
