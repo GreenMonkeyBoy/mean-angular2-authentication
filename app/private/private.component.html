@@ -1,0 +1,9 @@
+<h3>Private</h3>
+
+<div *ngIf="!isLogged" class="alert alert-danger">
+  	<p>You can't see this content. You need to be logged to see it.</p>
+</div>
+
+<div *ngIf="isLogged" class="alert alert-success">
+	<p>Hello you are logged and you see a private content. Your email is : {{tokenEmail}}</p>
+</div>
